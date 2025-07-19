@@ -346,7 +346,7 @@ setUnitStats: selfRegenRate-=0.2
 temporarilyAddTags: IMONFIRE2
 
 [hiddenAction_decrementBurnDebuff2]
-autoTrigger: if memory.burningDebuff > 0
+autoTrigger: if memory.burningDebuff2 > 0
 setUnitMemory: burningDebuff2 = memory.burningDebuff2 -1
 
 [hiddenAction_BurnDebuffDeactivate2]

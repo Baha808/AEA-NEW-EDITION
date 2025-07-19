@@ -494,7 +494,7 @@ canAttackFlyingUnits: true
 canAttackLandUnits:   true
 canShoot: true
 
-energyUsage: 0.1
+energyUsage: 0.15
 
 limitingRange: 250
 
