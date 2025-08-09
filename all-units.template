@@ -219,7 +219,7 @@ hidden:true
 @global comanche:       2750
 @global bgBomberMech:   4500
 #---------------        ---
-@global modMech:        2900
+@global modMech:        3200
 @global honeyBadger:    3000
 @global langley:        5000
 @global gunMech:        5500
@@ -239,14 +239,14 @@ hidden:true
 @global heavyMT:        14000
 @global ATMech:         6000
 @global CamperMech:     13000
+@global type3Mech:      14000
 # Tier IV
-@global type3Mech:      12000
 @global vigorous:       23000
 @global plasmaBeetle:   23000
 @global type4:          23000, uranium=75
 @global SamuraiX: 21000, uranium=1000
 # Tier V
-@global T4okhotnik:     55000, uranium=2750
+@global T4okhotnik:     45000, uranium=2500
 @global T4shokaku:      37500, uranium=800, SoaringCrane=1
 @global T5warpMech:     30000, uranium=750
 @global apolloOldPrice: 65000, uranium=3200

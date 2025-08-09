@@ -1,0 +1,18 @@
+1.3
+# - AEA
+- Chronoshift removed
+- Multiple engineer infantry now can no longer explode the same mine multiple times
+- Duster transport slots from 1 to 2
+- Titan build speed from 135.5s to 160s
+# - BGC
+- Tactical mech health from 1500 to 2100, shield from 1000 to 0
+- Okhotnik invisibility removed; price from 55000, uranium=2750 to 45000, uranium=2500
+- Type3 moved from t4 to t3, price from 12000 to 14000
+- Honey badger transport slots from 1 to 2
+- Modmech price from 2900 to 3200
+# - EKE
+- Fatboy price from 100000 to 150000
+- Dyson price from 275000 to 350000
+- Spitfire transport slots from 1 to 2
+- Pulse turret healing from 150 to 100, building multiplier from 0.5 to 0.25
+- T2 pulse turret healing from 400 to 300, building multiplier from 0.5 to 0.25
