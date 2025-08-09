@@ -1,5 +1,5 @@
 [mod]
-title: AEA Unlimited Warfare 1.21.1 NEW EDITION 
+title: AEA Unlimited Warfare DEV
 description: [FINALLY, AN UPDATE] AEA. Black Guard Corporation. EK Engineering. These factions collide in an all out battle for ultimate supremecy over the 100 worlds. Who will conquer over all? Pick your faction wisely Recruit, the war has just begun. 
 tags: Units
 minVersion: 1.15p11
