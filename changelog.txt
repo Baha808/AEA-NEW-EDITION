@@ -22,3 +22,4 @@
 - Pulse turret healing from 150 to 100, building multiplier from 0.5 to 0.25
 - T2 pulse turret healing from 400 to 300, building multiplier from 0.5 to 0.25
 - Hound fog of war sight range 26 to 20, 31 to 28 while deployed
+- Thermal generator price from 1750 to 1250
