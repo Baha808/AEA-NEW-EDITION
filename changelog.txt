@@ -5,8 +5,8 @@
 - Duster transport slots from 1 to 2
 - Titan build speed from 135.5s to 160s
 # - BGC
-- Tactical mech health from 1500 to 2100, shield from 1000 to 0
-- Okhotnik invisibility removed; price from 55000, uranium=2750 to 45000, uranium=2500
+- Tactical mech health from 2100 to 1000 | shield from 1000 to 0 | removed formations | removed attack | move speed from 0.6 to 0.7
+- Okhotnik invisibility removed; price from 55000, 2750 to 45000, 2500
 - Type3 moved from t4 to t3, price from 12000 to 14000
 - Honey badger transport slots from 1 to 2
 - Modmech price from 2900 to 3200
