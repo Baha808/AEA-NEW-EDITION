@@ -1,3 +1,3 @@
 1.3
 # - AEA
-- Chronoshift added back | recharge from 8 minutes to 4 minutes | range from infinite to 1600 | price from 70000 to 30000
+- Chronoshift added back | recharge from 8 minutes to 4 minutes | range from infinite to 2000 | price from 70000 to 30000
