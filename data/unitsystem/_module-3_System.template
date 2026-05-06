@@ -367,15 +367,6 @@ isActive: if not self.hasResources(moduleLock_${moduleLock}=1)
 	@define modName_zh: 		龟核
 	@define modName_ru:		Черепашье Ядро
 	price: ${Mprice_VII}
-[action_install_module_precisionB_A]
-	@copyFromSection: template_moduleSelector, template_temModLock_1, template_lockT2
-	@define modsTag: 		precisionB
-	@define moduleT: 		module_precisionBeam
-	@define modTrig: 		TRIGGER_PRECISION_1
-	@define modName_zh: 		精密光线
-	@define modName: 		Precision Beam
-	@define modName_ru:		ЛМНД
-	price: ${Mprice_VIII}
 [action_install_module_particleB_A]
 	@copyFromSection: template_moduleSelector, template_temModLock_1, template_lockT2
 	@define modsTag: 		aaPBeam
@@ -394,6 +385,15 @@ isActive: if not self.hasResources(moduleLock_${moduleLock}=1)
 	@define modName_zh: 		炸药包
 	@define modName_ru:		Заряд Взрывчатки
 	price: ${Mprice_XII}
+[action_install_module_precisionB_A]
+	@copyFromSection: template_moduleSelector, template_temModLock_1, template_lockT3
+	@define modsTag: 		precisionB
+	@define moduleT: 		module_precisionBeam
+	@define modTrig: 		TRIGGER_PRECISION_1
+	@define modName_zh: 		精密光线
+	@define modName: 		Precision Beam
+	@define modName_ru:		ЛМНД
+	price: ${Mprice_VIII}
 [action_install_module_RepairPulse_A]
 	@copyFromSection: template_moduleSelector, template_temModLock_1, template_lockT3
 	@define modsTag: 		repairPulse
@@ -561,15 +561,6 @@ isActive: if not self.hasResources(moduleLock_${moduleLock}=1)
 	@define modName: 		Turtle Core
 	@define modName_ru:		Черепашье Ядро
 	price: ${Mprice_VII}
-[action_install_module_precisionB_B]
-	@copyFromSection: template_moduleSelector, template_temModLock_2, template_lockT2
-	@define modsTag: 		precisionB
-	@define moduleT: 		module_precisionBeam
-	@define modTrig: 		TRIGGER_PRECISION_2
-	@define modName_zh: 		精密光线
-	@define modName: 		Precision Beam
-	@define modName_ru:		ЛМНД
-	price: ${Mprice_VIII}
 [action_install_module_particleB_B]
 	@copyFromSection: template_moduleSelector, template_temModLock_2, template_lockT2
 	@define modsTag: 		aaPBeam
@@ -588,6 +579,15 @@ isActive: if not self.hasResources(moduleLock_${moduleLock}=1)
 	@define modName: 		Demo Charge
 	@define modName_ru:		Заряд Взрывчатки
 	price: ${Mprice_XII}
+[action_install_module_precisionB_B]
+	@copyFromSection: template_moduleSelector, template_temModLock_2, template_lockT3
+	@define modsTag: 		precisionB
+	@define moduleT: 		module_precisionBeam
+	@define modTrig: 		TRIGGER_PRECISION_2
+	@define modName_zh: 		精密光线
+	@define modName: 		Precision Beam
+	@define modName_ru:		ЛМНД
+	price: ${Mprice_VIII}
 [action_install_module_RepairPulse_B]
 	@copyFromSection: template_moduleSelector, template_temModLock_2, template_lockT3
 	@define modsTag: 		repairPulse
@@ -755,15 +755,6 @@ isActive: if not self.hasResources(moduleLock_${moduleLock}=1)
 	@define modName: 		Turtle Core
 	@define modName_ru:		Черепашье Ядро
 	price: ${Mprice_VII}
-[action_install_module_precisionB_C]
-	@copyFromSection: template_moduleSelector, template_temModLock_3, template_lockT2
-	@define modsTag: 		precisionB
-	@define moduleT: 		module_precisionBeam
-	@define modTrig: 		TRIGGER_PRECISION_3
-	@define modName_zh: 		精密光线
-	@define modName: 		Precision Beam
-	@define modName_ru:		ЛМНД
-	price: ${Mprice_VIII}
 [action_install_module_particleB_C]
 	@copyFromSection: template_moduleSelector, template_temModLock_3, template_lockT2
 	@define modsTag: 		aaPBeam
@@ -782,6 +773,15 @@ isActive: if not self.hasResources(moduleLock_${moduleLock}=1)
 	@define modName: 		Demo Charge
 	@define modName_ru:		Заряд Взрывчатки
 	price: ${Mprice_XII}
+[action_install_module_precisionB_C]
+	@copyFromSection: template_moduleSelector, template_temModLock_3, template_lockT3
+	@define modsTag: 		precisionB
+	@define moduleT: 		module_precisionBeam
+	@define modTrig: 		TRIGGER_PRECISION_3
+	@define modName_zh: 		精密光线
+	@define modName: 		Precision Beam
+	@define modName_ru:		ЛМНД
+	price: ${Mprice_VIII}
 [action_install_module_RepairPulse_C]
 	@copyFromSection: template_moduleSelector, template_temModLock_3, template_lockT3
 	@define modsTag: 		repairPulse

@@ -570,17 +570,3 @@ displayTextPostfix: )
 #iconImage: NONE
 
 
-#                                                           nightmare ai
-[hiddenAction_NAI_checkForAI#12312312]
-autoTriggerOnEvent: created
-requireConditional: if self.globalTeamTags(includes="NightmareAI") and (${core.isBuilding}!=true)
-temporarilyAddTags: NAI_Unit
-
-[hiddenAction_nai_checkifcanapplytag]
-autoTrigger: if self.globalTeamTags(includes="NightmareAI") and self.hp<=self.maxHp*0.4 and self.tags(includes="exp")
-autoTriggerCheckRate: every8Frames
-temporarilyAddTags: repairmepls
-[hiddenAction_nai_checkifcanremovetag]
-autoTrigger: if self.globalTeamTags(includes="NightmareAI") and self.tags(includes="repairmepls") and self.hp>=(self.maxHp*0.9)
-autoTriggerCheckRate: every8Frames
-temporarilyRemoveTags: repairmepls
