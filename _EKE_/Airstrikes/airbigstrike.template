@@ -25,7 +25,7 @@ text_zh: 动能打击
 description_zh: -巨型金属棒轨道从外大气层坠落\n-射程450 \n-8000范围伤害，240伤害半径
 
 displayType: action
-buildSpeed: 4s
+buildSpeed: 8s
 pos: 1.1
 highPriorityQueue: true
 onlyOneUnitAtATime: true
@@ -70,7 +70,7 @@ text_zh: 脏弹
 description_zh: -在大范围内投掷放射性尘，持续4分钟\n-随时间流逝造成轻微伤害，不影响盟友单位\n-发射射程600
 
 displayType: action
-buildSpeed: 5s
+buildSpeed: 15s
 pos: 1.2
 highPriorityQueue: true
 onlyOneUnitAtATime: true

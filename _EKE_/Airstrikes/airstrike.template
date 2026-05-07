@@ -29,7 +29,7 @@ text_zh: 空中支援[方向下]
 description_zh: 向目标位置投掷炸弹\n-造成800点伤害，区域半径75\n-投放范围360
 iconImage: ROOT:_EKE_\Airstrikes\bombing runs\down.png
 displayType: action
-buildSpeed: 1.7s
+buildSpeed: 1.4s
 pos: 1.1
 highPriorityQueue: true
 allowMultipleInQueue: true
@@ -50,43 +50,7 @@ directDamage: 0
 instant: true
 explodeEffect: NONE
 explodeEffectOnShield: NONE
-#-----------------------air support up
-[action_up]
-@copyFromSection: template_noJacas
-#---------------------------------
-fireTurretXAtGround: up
-price: 400, Power=30 
-text: air support up
-description: Drops a bomb on target location\n- Does 800 damage, area radius 75\n- Targeting Range 360
-text_ru: Воздушная Поддержка
-description_ru: Направление: снизу-вверх\n- Сбрасывает бомбу в указанную точку\n- Наносит 800 урона в небольшом радиусе\n Радиус вызова: 360
-text_zh: 空中支援[方向上]
-description_zh: 向目标位置投掷炸弹\n-造成800点伤害，区域半径75\n-投放范围360
 
-
-iconImage: ROOT:_EKE_\Airstrikes\bombing runs\up.png
-displayType: action
-buildSpeed: 1.3s
-pos: 1.1
-highPriorityQueue: true
-
-[turret_up]
-x: 0
-y: 0
-projectile: up
-size: 1
-turnSpeed: 15
-canShoot:false
-invisible: true
-limitingRange: 360
-[projectile_up]
-life: 60
-deflectionPower: -1
-spawnUnit: TCAIDbombup, bombping(offsetDir=0, alwayStartDirAtZero=true)
-directDamage: 0
-instant: true
-explodeEffect: NONE
-explodeEffectOnShield: NONE
 #-----------------------
 [action_cl2]
 @copyFromSection: template_noJacas

@@ -269,7 +269,7 @@ hidden:true
 #-------laser defense
 @global Mprice_IV:   1000
 #-------energy charger
-@global Mprice_V:    1900
+@global Mprice_V:    2000
 #-------shield generator
 @global Mprice_VI:   2000
 #-------turtle core
@@ -339,7 +339,7 @@ hidden:true
 @global camo_ApolloII_barreal: 0
 @global camo_ApolloII_gunHouse: 0
 #Built mech stop moving for sec..... timer for how long they wait till the gantry fully opened
-@global mechGantryHalttimer: 2
+@global mechGantryHalttimer: 1
 #========Global Resources=======
 [global_resource_DeltaCore]
 #Apollo's core
