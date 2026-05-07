@@ -9,7 +9,6 @@
 # - BGC
 - Precision beam is now a t2 Module
 - Tactical Mech flare cooldown from 40 to 80
-- Leyte drone price from 800 to 1000
 - Gun Mech can now use Energy Charger Module
 - Energy Charger Module price from 1900 to 2000
 - Beam Crab fog of war vision from 20 to 26

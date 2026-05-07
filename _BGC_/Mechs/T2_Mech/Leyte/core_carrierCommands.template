@@ -9,7 +9,7 @@
 #ai 15
 [core]
 #Drone Price
-@global Dprice: 1000
+@global Dprice: 800
 #This autoguard within range
 @global gurdMe: 300
 
