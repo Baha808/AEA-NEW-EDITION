@@ -1,17 +1,21 @@
 1.5
 # - AEA
 - Chronoshift usage cost: 80000$, uranium=4000
-- Sniper price 600 to 750, transport slots needed 2 to 1, deployment speed 1s to 0.8s, undeployment speed 1s to 1.2s, stealt mode deployment speed 7s to 8s, build speed 8.8s to 9.8s can now attack while undeployed, targets land only.
+- Sniper price 600 to 750, transport slots needed 2 to 1, deployment speed 1s to 0.8s, undeployment speed 1s to 1.2s, stealt mode deployment speed 7s to 8s, build speed 8.8s to 9.8s can now attack while undeployed, targets land only, attacks can be intercepted
 - Laser tank price 1200 to 1250, range 190 to 210
 - Basic mech movement speed 08 to 0.9
 - Plasma tank hp 225 to 300, shield regen 0.06 to 0.15 
 - Scout fog of war vision from 20 to 26
+- Pegasus can now move on cliffs
+
 # - BGC
-- Precision beam is now a t2 Module
-- Tactical Mech flare cooldown from 40 to 80
+- Type3 cannot make precision beam
+- Tactical Mech flare cooldown from 40 to 60
 - Gun Mech can now use Energy Charger Module
-- Energy Charger Module price from 1900 to 2000
+- Energy Charger Module price from 1900 to 1600
 - Beam Crab fog of war vision from 20 to 26
+- Leyte range from 2000 to 900
+- Extractor t3 upgrade time from 148.2s to 110s
 
 # - EKE
 - Kinetic Strike time from 4s to 8s | Dirty Bomb time from 5s to 15s | Air Support up removed

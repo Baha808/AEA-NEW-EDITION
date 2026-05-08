@@ -256,7 +256,15 @@ addActionCooldownTime: 5s
 	@define modName: 		Turtle Core
 	@define modName_ru:		Черепашье Ядро
 	price: ${Mprice_VII}
-
+[action_install_module_precisionB]
+	@copyFromSection: template_moduleSelector, template_lockT2
+	@define modsTag: 		precisionB
+	@define moduleT: 		module_precisionBeam
+	@define modTrig: 		TRIGGER_PRECISION_1
+	@define modName_zh: 		精密光线
+	@define modName: 		Precision Beam
+	@define modName_ru:		ЛМНД
+	price: ${Mprice_VIII}
 [action_install_module_particleB]
 	@copyFromSection: template_moduleSelector, template_lockT2
 	@define modsTag: 		aaPBeam
@@ -275,15 +283,6 @@ addActionCooldownTime: 5s
 	@define modName: 		Demo Charge
 	@define modName_ru:		Заряд Взрывчатки
 	price: ${Mprice_XII}
-[action_install_module_precisionB]
-	@copyFromSection: template_moduleSelector, template_lockT3
-	@define modsTag: 		precisionB
-	@define moduleT: 		module_precisionBeam
-	@define modTrig: 		TRIGGER_PRECISION_1
-	@define modName_zh: 		精密光线
-	@define modName: 		Precision Beam
-	@define modName_ru:		ЛМНД
-	price: ${Mprice_VIII}
 [action_install_module_RepairPulse]
 	@copyFromSection: template_moduleSelector, template_lockT3
 	@define modsTag: 		repairPulse

@@ -269,7 +269,7 @@ hidden:true
 #-------laser defense
 @global Mprice_IV:   1000
 #-------energy charger
-@global Mprice_V:    2000
+@global Mprice_V:    1800
 #-------shield generator
 @global Mprice_VI:   2000
 #-------turtle core

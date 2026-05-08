@@ -2,7 +2,7 @@
 #MG total damage: 1080
 # flag 0 1 2 29 30
 @global energyP: 0.4
-
+@global range: 2000
 copyFrom: _weapun.template, common_range.template, SelfResource.template, ROOT:data\effects\DropBomb.ini, ROOT:data\effects\microMissile.template, ROOT:data\effects\shieldEffect.template, ROOT:data\effects\blueEx.template, ROOT:data\effects\crit.template, ROOT:data\effects\water_byHawko.template, ROOT:data\effects\groundDust.template
 
 name: drone_${leyteC}
@@ -182,7 +182,6 @@ autoTrigger: if self.isEnergyFull() and not self.tags(includes='EnergyFull_${ley
 temporarilyAddTags: EnergyFull_${leyteC}
 
 
-
 #----------------------------------------------------------------------------------------
 [hiddenAction_returnNOII=I]
 autoTrigger: if self.energy(greaterThan=0) and not numberOfUnitsInEnemyTeam(greaterThan=0, withinRange=500) and not self.isAttacking() and not self.hasParent() 
@@ -194,7 +193,6 @@ addWaypoint_prepend: true
 addWaypoint_target_nearestUnit_tagged: leyteT=${leyteC}
 addWaypoint_target_nearestUnit_team: own
 addWaypoint_maxTime: 1s
-
 [hiddenAction_returnHome]
 autoTrigger: if self.isEnergyEmpty() and not self.hasActiveWaypoint(type='loadInto') and not self.hasParent() 
 clearAllWaypoints: true
@@ -207,7 +205,6 @@ temporarilyRemoveTags: EnergyFull_${leyteC}
 autoTrigger: if self.isEnergyEmpty() and not self.hasActiveWaypoint(type='loadInto') and not self.isAttacking() 
 
 alsoTriggerAction: returnNOII=I
-
 #=-==================================Guard\scatter
 [hiddenAction_GuardParent]
 autoTrigger: if self.isEnergyFull() and numberOfUnitsInTeam(withTag='GuardMe_${leyteC}', greaterThan=0) and not self.hasActiveWaypoint(type='GUARD') and not self.hasParent()
