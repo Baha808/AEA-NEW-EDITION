@@ -248,7 +248,7 @@ hidden:true
 # Tier V
 @global T4okhotnik:     45000, uranium=2500
 @global T4shokaku:      37500, uranium=800, SoaringCrane=1
-@global T5warpMech:     30000, uranium=750
+@global T5warpMech:     15000, uranium=500
 @global apolloOldPrice: 65000, uranium=3200
 # Experimental
 @global orion1: 8500, uranium=100
