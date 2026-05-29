@@ -2,6 +2,7 @@
 # - AEA
 - Tesla mech price from 6800 to 6300
 - Slugger mech from 6200 to 6600
+- Plasma tank hp from 300 to 225, shield from 500 to 575
 
 # - BGC
 - Gunmech transport slots from 3 to 2
