@@ -7,6 +7,8 @@
 # - BGC
 - Gunmech transport slots from 3 to 2
 - Warp Mech price from 60000, 1500u to 15000, 500u, health from 10000 to 4000, movement speed from 0.7 to 0.85, build speed from 85s to 60s, cannon weapon removed, minigun weapon damage from 6 to 3
+- Devastator reworked
+- Apollo now has 1 module slot
 # - EKE
 
 
