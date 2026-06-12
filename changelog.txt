@@ -5,6 +5,7 @@
 - Plasma tank hp from 300 to 225, shield from 500 to 575
 - Buffalo projectile spread 1 to 0.8
 - Fire Bee fire debuff damage from 0.2 to 0.3 and length from 5 to 7
+- Infantry Engineer can now build extractors
 
 # - BGC
 - Gunmech transport slots from 3 to 2
