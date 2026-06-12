@@ -10,6 +10,6 @@
 - Warp Mech price from 60000, 1500u to 15000, 500u, health from 10000 to 4000, movement speed from 0.7 to 0.85, build speed from 85s to 60s, cannon weapon removed, minigun weapon damage from 6 to 3
 # - EKE
 - Tunguska projectile spread 1 to 0.8
-
+- Fatboy price from 150000,6200u to 120000,6000u
 
 # [AEA NEW EDITION](<https://github.com/Baha808/AEA-NEW-EDITION/releases/download/1.5/AEA-NEW-EDITION-v1.5.rwmod>)
