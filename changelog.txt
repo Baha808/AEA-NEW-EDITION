@@ -1,13 +1,19 @@
-1.5
+1.6
 # - AEA
 - Tesla mech price from 6800 to 6300
 - Slugger mech from 6200 to 6600
 - Plasma tank hp from 300 to 225, shield from 500 to 575
 - Buffalo projectile spread 1 to 0.8
+- Fire Bee fire debuff damage from 0.2 to 0.3 and length from 5 to 7
 
 # - BGC
 - Gunmech transport slots from 3 to 2
 - Warp Mech price from 60000, 1500u to 15000, 500u, health from 10000 to 4000, movement speed from 0.7 to 0.85, build speed from 85s to 60s, cannon weapon removed, minigun weapon damage from 6 to 3
+- Apollo now has 1 module slot
+- Ritter wall projectile health from 30 to 35
+- Rama build speed from 45 to 70
+- Modmech self repair from 0.05 with specific units inside to 0.035 at all times
+
 # - EKE
 - Tunguska projectile spread 1 to 0.8
 - Fatboy price from 150000,6200u to 120000,6000u

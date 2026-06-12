@@ -336,13 +336,13 @@ temporarilyRemoveTags: IMONFIRE
 [hiddenAction_hitBurnTimer2]
 autoTriggerOnEvent: tookDamage(withTag="inflictFire2")  
 #requireConditional: if self.shield(lessThan=10)
-setUnitMemory: burningDebuff2 = 5
+setUnitMemory: burningDebuff2 = 7
 #5 second debuff
 
 [hiddenAction_hitBurnDebuff2]
 autoTriggerOnEvent: tookDamage(withTag="inflictFire2")  
 requireConditional: if not self.tags(includes='IMONFIRE2')
-setUnitStats: selfRegenRate-=0.2
+setUnitStats: selfRegenRate-=0.3
 temporarilyAddTags: IMONFIRE2
 
 [hiddenAction_decrementBurnDebuff2]
@@ -352,7 +352,7 @@ setUnitMemory: burningDebuff2 = memory.burningDebuff2 -1
 [hiddenAction_BurnDebuffDeactivate2]
 autoTrigger: if memory.burningDebuff2 == 0
 requireConditional: if self.tags(includes='IMONFIRE2')
-setUnitStats: selfRegenRate+=0.2
+setUnitStats: selfRegenRate+=0.3
 temporarilyRemoveTags: IMONFIRE2
 
 #==============Armour Shatter==================#
