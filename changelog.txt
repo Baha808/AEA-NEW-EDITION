@@ -1,9 +1,9 @@
 1.6
 # - AEA
 - Tesla mech price from 6800 to 6300
-- Slugger mech from 6200 to 6600
 - Plasma tank hp from 300 to 225, shield from 500 to 575
 - Buffalo projectile spread 1 to 0.8
+- Heavy Tank movement speed 0.85 to 0.9
 - Fire Bee fire debuff damage from 0.2 to 0.3 and length from 5 to 7
 - Infantry Engineer can now build extractors
 - T2 fabricator income from 7 to 6(before 1.5x), t3 upgrade speed from 60s to 120s
@@ -21,6 +21,7 @@
 
 # - EKE
 - Tunguska projectile spread 1 to 0.8
+- Mediator movement speed 0.73 to 0.8, prie 1200 to 1100
 - Fatboy price from 150000,6200u to 120000,6000u
 - Eternity cannon price from 14000 to 14500
 - Greyhound interceptor range from 175 to 170 to match aea interceptor
