@@ -215,7 +215,7 @@ hidden:true
 @global miniSamurai:    1800, MSamurai=1
 # Tier II
 #---------------        Air > prerequisite: T2 Mech gantry/Langley
-@global lighFlyingMecg: 1300
+@global lighFlyingMecg: 1200
 @global comanche:       2750
 @global bgBomberMech:   4500
 #---------------        ---

@@ -18,6 +18,7 @@
 - Modmech self repair from 0.05 with specific units inside to 0.035 at all times
 - T2 fabricator income from 7 to 6(before 1.5x), t3 upgrade speed from 60s to 120s
 - **Generator can now only be built by Widow and Apollo-II**
+- Light Flying Mech price from 1300 to 1200
 
 # - EKE
 - Tunguska projectile spread 1 to 0.8
