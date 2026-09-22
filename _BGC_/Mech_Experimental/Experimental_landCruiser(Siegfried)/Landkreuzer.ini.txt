@@ -27,7 +27,8 @@ buildSpeed: 0.0002
 radius: 60
 displayRadius: 60
 
-generation_credits: 18
+#generation_credits: 18
+generation_credits: 27
 generation_delay: 40
 
 fogOfWarSightRange: 30

@@ -8,7 +8,7 @@
 #Drone buildspeed
 @global BDspeed: 15
 #Credits
-@global creditGen: 5
+@global creditGen: 7
 
 #----------------------weapon set I
 #weapon

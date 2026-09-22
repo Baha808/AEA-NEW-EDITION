@@ -1,9 +1,11 @@
 1.6.2
+# - all factions
+- all income was multiplied by 1.5x
 # - AEA
 
 # - BGC
 - Modular Mech regeneration from 0.035 to 0.025
 
 # - EKE
-
+- EKE CC scan cost from 2 to 15, no longers starts with -5 power
 # [AEA NEW EDITION](<https://github.com/Baha808/AEA-NEW-EDITION/releases/download/1.6.1/AEA-NEW-EDITION-v1.6.1.rwmod>)
