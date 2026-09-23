@@ -6,6 +6,7 @@
 
 # - BGC
 - Modular Mech regeneration from 0.035 to 0.025
+- Basic Mech MK:II missile area damage from 25 to 20
 - Basic Mech Mk:II buffed damage from 32 to 30
 - EWS module range from 9999 to 1500
 
