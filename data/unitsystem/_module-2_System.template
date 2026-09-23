@@ -332,31 +332,6 @@ isActive: if not self.hasResources(moduleLock_${moduleLock}=1)
 	@define modName: 		Repair Pulse
 	@define modName_ru:		Рем-Пульсация
 	price: ${Mprice_X}
-[action_install_module_Nuke_A]
-	@copyFromSection: template_moduleSelector, template_temModLock_1
-	@define modsTag: 		NuclearPayload
-	@define moduleT: 		module_nuke
-	@define modTrig: 		TRIGGER_NUKE_1
-	@define modName_zh: 		核能有效载荷
-	@define modName: 		Nuke Payload
-	@define modName_ru:		Ядерный Заряд
-	price: ${Mprice_XIII}
-  #-----------------
-  isLocked: if not game.nukesEnabled()
-  isLockedMessage: Oh no... No nuke this time
-  isLockedMessage_ru: Ядерки запрещены!
-  isLockedMessage_zh:哦不....这次没有核弹
-  #-----------------
-  isLockedAlt: if not self.globalTeamTags(includes='module_I')
-  isLockedAltMessage: Requires research: Module I 
-  isLockedAltMessage_zh: 需要研究：模块 Tech-I
-  isLockedAltMessage_ru: Необходимо исследование: Модули I
-  #-----------------
-  isLockedAlt2: if not self.globalTeamTags(includes='module_II')
-  isLockedAlt2Message: Requires research: Module II 
-  isLockedAlt2Message_zh: 需要研究：模块 Tech-II
-  isLockedAlt2Message_ru: Необходимо исследование: Модули II
-  #-----------------
 [action_install_moduleMax_repairbot_A]
 	@copyFromSection: template_moduleSelector, template_lockT3, template_temModLock_1
 	@define modsTag: 		RepairBot
@@ -526,31 +501,6 @@ isActive: if not self.hasResources(moduleLock_${moduleLock}=1)
 	@define modName: 		Repair Pulse
 	@define modName_ru:		Рем-Пульсация
 	price: ${Mprice_X}
-[action_install_module_Nuke_B]
-	@copyFromSection: template_moduleSelector, template_temModLock_2
-	@define modsTag: 		NuclearPayload
-	@define moduleT: 		module_nuke
-	@define modTrig: 		TRIGGER_NUKE_2
-	@define modName_zh: 		核能有效载荷
-	@define modName: 		Nuke Payload
-	@define modName_ru:		Ядерный Заряд
-	price: ${Mprice_XIII}
-  #-----------------
-  isLocked: if not game.nukesEnabled()
-  isLockedMessage: Oh no... No nuke this time
-  isLockedMessage_ru: Ядерки запрещены!
-  isLockedMessage_zh:哦不....这次没有核弹
-  #-----------------
-  isLockedAlt: if not self.globalTeamTags(includes='module_I')
-  isLockedAltMessage: Requires research: Module I 
-  isLockedAltMessage_zh: 需要研究：模块 Tech-I
-  isLockedAltMessage_ru: Необходимо исследование: Модули I
-  #-----------------
-  isLockedAlt2: if not self.globalTeamTags(includes='module_II')
-  isLockedAlt2Message: Requires research: Module II 
-  isLockedAlt2Message_zh: 需要研究：模块 Tech-II
-  isLockedAlt2Message_ru: Необходимо исследование: Модули II
-  #-----------------
 [action_install_moduleMax_repairbot_B]
 	@copyFromSection: template_moduleSelector, template_lockT3, template_temModLock_2
 	@define modsTag: 		RepairBot

@@ -125,10 +125,6 @@ alsoQueueAction: repairPulse1
 autoTriggerOnEvent: newMessage(withTag="TRIGGER_DEMOCHARGE_${moduleSlot}")
 requireConditional: if (self.hasParent(withTag='demo') or self.hasParent(withTag='ConcealedMod')) and self.globalTeamTags(includes='module_I')
 alsoQueueAction: Demo
-[hiddenAction_triggerInstall_NukePay]
-autoTriggerOnEvent: newMessage(withTag="TRIGGER_NUKE_${moduleSlot}")
-requireConditional: if (self.hasParent(withTag='NuclearPayload') or self.hasParent(withTag='ConcealedMod')) and self.globalTeamTags(includes='module_II') and game.nukesEnabled()
-alsoQueueAction: Nuke
 #=------------------------------- maxed module 
 [hiddenAction_triggerInstall_repair_maxed]
 autoTriggerOnEvent: newMessage(withTag="TRIGGER_REPAIR_${moduleSlot}_max")
@@ -345,29 +341,6 @@ isVisible: if self.hasParent(withTag='demo')
 buildSpeed: 15s
 convertTo: module_demo
 price: ${Mprice_XII}
-[action_Nuke]
-@copyFromSection: template_buildTurret
-#@define price: 9000
-#-----------------
-isLocked: if not game.nukesEnabled()
-isLockedMessage: Oh no... No nuke this time
-isLockedMessage_ru: Ядерки запрещены!
-isLockedMessage_zh: 哦不...本局游戏没有核武器
-#-----------------
-isLockedAlt: if not self.globalTeamTags(includes='module_I')
-isLockedAltMessage: Requires research: Module I 
-isLockedAltMessage_zh: 需要研究: 模块 Tech-I
-isLockedMessage_ru: Необходимо исследование: Модули I
-#-----------------
-isLockedAlt2: if not self.globalTeamTags(includes='module_II')
-isLockedAlt2Message: Requires research: Module II 
-isLockedAlt2Message_zh: 需要研究: 模块 Tech-II
-isLockedMessage_ru: Необходимо исследование: Модули II
-#-----------------
-isVisible: if self.hasParent(withTag='NuclearPayload')
-buildSpeed: 35s
-convertTo: module_nuke
-price: ${Mprice_XIII}
 #------------------ maxed
 [action_repair_max]
 @copyFromSection: template_buildTurret

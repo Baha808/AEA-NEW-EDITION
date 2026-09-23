@@ -1,10 +1,13 @@
 1.6.2
 # - all factions
 - all income was multiplied by 1.5x
+- during faction picking, i have added ready indicator
 # - AEA
 
 # - BGC
 - Modular Mech regeneration from 0.035 to 0.025
+- Basic Mech Mk:II buffed damage from 32 to 30
+- EWS module range from 9999 to 1500
 
 # - EKE
 - EKE CC scan cost from 2 to 15, no longers starts with -5 power
